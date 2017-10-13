@@ -1,0 +1,64 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/07/21 15:59:07 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/07/21 15:59:07 WARN Utils: Your hostname, glados-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+17/07/21 15:59:07 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+17/07/21 15:59:08 INFO FileInputFormat: Total input paths to process : 2
+17/07/21 15:59:08 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+17/07/21 15:59:08 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+17/07/21 15:59:08 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/07/21 15:59:08 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+17/07/21 15:59:08 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 7:
+[rdd_9_1]
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 6:
+[rdd_9_0]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 11:
+[rdd_3_1, rdd_18_1]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 10:
+[rdd_18_0, rdd_3_0]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 13:
+[rdd_38_1, rdd_26_1]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 12:
+[rdd_26_0, rdd_38_0]
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 15:
+[rdd_44_1]
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 14:
+[rdd_44_0]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 19:
+[rdd_50_1, rdd_38_1]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 18:
+[rdd_50_0, rdd_38_0]
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 21:
+[rdd_56_1]
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 20:
+[rdd_56_0]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 24:
+[rdd_50_0, rdd_62_0]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 25:
+[rdd_62_1, rdd_50_1]
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 26:
+[rdd_68_0]
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 27:
+[rdd_68_1]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 31:
+[rdd_74_1, rdd_62_1]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 30:
+[rdd_74_0, rdd_62_0]
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 33:
+[rdd_80_1]
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 32:
+[rdd_80_0]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 36:
+[rdd_86_0, rdd_74_0]
+17/07/21 15:59:09 WARN Executor: 2 block locks were not released by TID = 37:
+[rdd_74_1, rdd_86_1]
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 38:
+[rdd_92_0]
+17/07/21 15:59:09 WARN Executor: 1 block locks were not released by TID = 39:
+[rdd_92_1]
+17/07/21 15:59:10 INFO FileOutputCommitter: Saved output of task 'attempt_20170721155909_0069_m_000001_41' to file:/home/whoami/SparkBench/PageRank/Output/_temporary/0/task_20170721155909_0069_m_000001
+17/07/21 15:59:10 WARN Executor: 1 block locks were not released by TID = 41:
+[rdd_86_1]
+17/07/21 15:59:10 INFO FileOutputCommitter: Saved output of task 'attempt_20170721155909_0069_m_000000_40' to file:/home/whoami/SparkBench/PageRank/Output/_temporary/0/task_20170721155909_0069_m_000000
+17/07/21 15:59:10 WARN Executor: 1 block locks were not released by TID = 40:
+[rdd_86_0]

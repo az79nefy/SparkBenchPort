@@ -1,0 +1,527 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/09/23 13:24:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/09/23 13:24:18 WARN Utils: Your hostname, glados-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+17/09/23 13:24:18 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+17/09/23 13:24:19 INFO FileInputFormat: Total input paths to process : 10
+17/09/23 13:24:19 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+17/09/23 13:24:19 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+17/09/23 13:24:19 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+17/09/23 13:24:19 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/09/23 13:24:19 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+[Stage 0:>                                                         (0 + 2) / 10][Stage 0:=====>                                                    (1 + 2) / 10][Stage 0:===========>                                              (2 + 2) / 10][Stage 0:=================>                                        (3 + 2) / 10][Stage 0:=======================>                                  (4 + 2) / 10][Stage 0:=============================>                            (5 + 2) / 10][Stage 0:========================================>                 (7 + 2) / 10][Stage 0:==============================================>           (8 + 2) / 10][Stage 0:====================================================>     (9 + 1) / 10]                                                                                17/09/23 13:24:23 WARN Executor: 1 block locks were not released by TID = 11:
+[rdd_3_1]
+17/09/23 13:24:23 WARN Executor: 1 block locks were not released by TID = 10:
+[rdd_3_0]
+[Stage 1:===========>                                              (2 + 2) / 10]17/09/23 13:24:23 WARN Executor: 1 block locks were not released by TID = 12:
+[rdd_3_2]
+17/09/23 13:24:23 WARN Executor: 1 block locks were not released by TID = 13:
+[rdd_3_3]
+[Stage 1:=======================>                                  (4 + 2) / 10]17/09/23 13:24:24 WARN Executor: 1 block locks were not released by TID = 15:
+[rdd_3_5]
+[Stage 1:=============================>                            (5 + 2) / 10]17/09/23 13:24:24 WARN Executor: 1 block locks were not released by TID = 14:
+[rdd_3_4]
+17/09/23 13:24:24 WARN Executor: 1 block locks were not released by TID = 16:
+[rdd_3_6]
+[Stage 1:========================================>                 (7 + 2) / 10]17/09/23 13:24:24 WARN Executor: 1 block locks were not released by TID = 18:
+[rdd_3_8]
+17/09/23 13:24:24 WARN Executor: 1 block locks were not released by TID = 17:
+[rdd_3_7]
+[Stage 1:====================================================>     (9 + 1) / 10]17/09/23 13:24:24 WARN Executor: 1 block locks were not released by TID = 19:
+[rdd_3_9]
+[Stage 2:>                                                         (0 + 2) / 10]17/09/23 13:24:25 WARN Executor: 1 block locks were not released by TID = 21:
+[rdd_14_1]
+17/09/23 13:24:25 WARN Executor: 1 block locks were not released by TID = 20:
+[rdd_14_0]
+[Stage 2:===========>                                              (2 + 2) / 10]17/09/23 13:24:26 WARN Executor: 1 block locks were not released by TID = 23:
+[rdd_14_3]
+17/09/23 13:24:26 WARN Executor: 1 block locks were not released by TID = 22:
+[rdd_14_2]
+[Stage 2:=======================>                                  (4 + 2) / 10]17/09/23 13:24:26 WARN Executor: 1 block locks were not released by TID = 25:
+[rdd_14_5]
+17/09/23 13:24:26 WARN Executor: 1 block locks were not released by TID = 24:
+[rdd_14_4]
+[Stage 2:==================================>                       (6 + 2) / 10]17/09/23 13:24:27 WARN Executor: 1 block locks were not released by TID = 27:
+[rdd_14_7]
+17/09/23 13:24:28 WARN Executor: 1 block locks were not released by TID = 26:
+[rdd_14_6]
+[Stage 2:==============================================>           (8 + 2) / 10]17/09/23 13:24:28 WARN Executor: 1 block locks were not released by TID = 28:
+[rdd_14_8]
+17/09/23 13:24:28 WARN Executor: 1 block locks were not released by TID = 29:
+[rdd_14_9]
+                                                                                [Stage 4:>                                                         (0 + 2) / 10][Stage 4:===========>                                              (2 + 2) / 10][Stage 4:=======================>                                  (4 + 2) / 10][Stage 4:=============================>                            (5 + 2) / 10][Stage 4:==================================>                       (6 + 2) / 10][Stage 4:==============================================>           (8 + 2) / 10][Stage 4:====================================================>     (9 + 1) / 10]                                                                                [Stage 11:=============================================>           (8 + 2) / 10]17/09/23 13:24:32 WARN Executor: 1 block locks were not released by TID = 80:
+[rdd_29_0]
+17/09/23 13:24:32 WARN Executor: 1 block locks were not released by TID = 81:
+[rdd_29_1]
+17/09/23 13:24:32 WARN Executor: 1 block locks were not released by TID = 82:
+[rdd_29_2]
+17/09/23 13:24:32 WARN Executor: 1 block locks were not released by TID = 83:
+[rdd_29_3]
+17/09/23 13:24:32 WARN Executor: 1 block locks were not released by TID = 84:
+[rdd_29_4]
+17/09/23 13:24:32 WARN Executor: 1 block locks were not released by TID = 85:
+[rdd_29_5]
+17/09/23 13:24:32 WARN Executor: 1 block locks were not released by TID = 86:
+[rdd_29_6]
+17/09/23 13:24:32 WARN Executor: 1 block locks were not released by TID = 87:
+[rdd_29_7]
+17/09/23 13:24:32 WARN Executor: 1 block locks were not released by TID = 88:
+[rdd_29_8]
+17/09/23 13:24:32 WARN Executor: 1 block locks were not released by TID = 89:
+[rdd_29_9]
+                                                                                17/09/23 13:24:32 WARN Executor: 2 block locks were not released by TID = 90:
+[rdd_42_0, rdd_29_0]
+17/09/23 13:24:32 WARN Executor: 2 block locks were not released by TID = 91:
+[rdd_42_1, rdd_29_1]
+17/09/23 13:24:32 WARN Executor: 2 block locks were not released by TID = 92:
+[rdd_42_2, rdd_29_2]
+17/09/23 13:24:32 WARN Executor: 2 block locks were not released by TID = 93:
+[rdd_42_3, rdd_29_3]
+17/09/23 13:24:32 WARN Executor: 2 block locks were not released by TID = 94:
+[rdd_29_4, rdd_42_4]
+17/09/23 13:24:32 WARN Executor: 2 block locks were not released by TID = 95:
+[rdd_29_5, rdd_42_5]
+17/09/23 13:24:32 WARN Executor: 2 block locks were not released by TID = 96:
+[rdd_29_6, rdd_42_6]
+17/09/23 13:24:32 WARN Executor: 2 block locks were not released by TID = 97:
+[rdd_29_7, rdd_42_7]
+17/09/23 13:24:32 WARN Executor: 2 block locks were not released by TID = 98:
+[rdd_29_8, rdd_42_8]
+17/09/23 13:24:32 WARN Executor: 2 block locks were not released by TID = 99:
+[rdd_29_9, rdd_42_9]
+17/09/23 13:24:32 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+17/09/23 13:24:32 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+[Stage 24:===========>                                             (2 + 2) / 10][Stage 24:======================>                                  (4 + 2) / 10][Stage 24:==================================>                      (6 + 2) / 10][Stage 24:=============================================>           (8 + 2) / 10]17/09/23 13:24:34 WARN Executor: 1 block locks were not released by TID = 120:
+[rdd_42_0]
+17/09/23 13:24:34 WARN Executor: 1 block locks were not released by TID = 121:
+[rdd_42_1]
+17/09/23 13:24:34 WARN Executor: 1 block locks were not released by TID = 123:
+[rdd_42_3]
+17/09/23 13:24:34 WARN Executor: 1 block locks were not released by TID = 122:
+[rdd_42_2]
+17/09/23 13:24:34 WARN Executor: 1 block locks were not released by TID = 125:
+[rdd_42_5]
+17/09/23 13:24:34 WARN Executor: 1 block locks were not released by TID = 124:
+[rdd_42_4]
+17/09/23 13:24:34 WARN Executor: 1 block locks were not released by TID = 126:
+[rdd_42_6]
+17/09/23 13:24:34 WARN Executor: 1 block locks were not released by TID = 127:
+[rdd_42_7]
+17/09/23 13:24:34 WARN Executor: 1 block locks were not released by TID = 129:
+[rdd_42_9]
+17/09/23 13:24:34 WARN Executor: 1 block locks were not released by TID = 128:
+[rdd_42_8]
+                                                                                17/09/23 13:24:35 WARN Executor: 2 block locks were not released by TID = 131:
+[rdd_42_1, rdd_56_1]
+17/09/23 13:24:35 WARN Executor: 2 block locks were not released by TID = 130:
+[rdd_42_0, rdd_56_0]
+17/09/23 13:24:35 WARN Executor: 2 block locks were not released by TID = 132:
+[rdd_42_2, rdd_56_2]
+[Stage 32:=================>                                       (3 + 2) / 10]17/09/23 13:24:35 WARN Executor: 2 block locks were not released by TID = 133:
+[rdd_42_3, rdd_56_3]
+[Stage 32:======================>                                  (4 + 2) / 10]17/09/23 13:24:35 WARN Executor: 2 block locks were not released by TID = 134:
+[rdd_42_4, rdd_56_4]
+17/09/23 13:24:35 WARN Executor: 2 block locks were not released by TID = 135:
+[rdd_56_5, rdd_42_5]
+[Stage 32:==================================>                      (6 + 2) / 10]17/09/23 13:24:36 WARN Executor: 2 block locks were not released by TID = 136:
+[rdd_56_6, rdd_42_6]
+17/09/23 13:24:36 WARN Executor: 2 block locks were not released by TID = 137:
+[rdd_56_7, rdd_42_7]
+[Stage 32:=============================================>           (8 + 2) / 10]17/09/23 13:24:36 WARN Executor: 2 block locks were not released by TID = 138:
+[rdd_42_8, rdd_56_8]
+17/09/23 13:24:36 WARN Executor: 2 block locks were not released by TID = 139:
+[rdd_56_9, rdd_42_9]
+                                                                                [Stage 41:>                                                        (0 + 2) / 10][Stage 41:===========>                                             (2 + 2) / 10][Stage 41:=================>                                       (3 + 2) / 10][Stage 41:======================>                                  (4 + 2) / 10][Stage 41:============================>                            (5 + 2) / 10][Stage 41:==================================>                      (6 + 2) / 10][Stage 41:=============================================>           (8 + 2) / 10]17/09/23 13:24:44 WARN Executor: 1 block locks were not released by TID = 160:
+[rdd_56_0]
+17/09/23 13:24:44 WARN Executor: 1 block locks were not released by TID = 161:
+[rdd_56_1]
+17/09/23 13:24:45 WARN Executor: 1 block locks were not released by TID = 163:
+[rdd_56_3]
+17/09/23 13:24:45 WARN Executor: 1 block locks were not released by TID = 162:
+[rdd_56_2]
+17/09/23 13:24:45 WARN Executor: 1 block locks were not released by TID = 164:
+[rdd_56_4]
+17/09/23 13:24:45 WARN Executor: 1 block locks were not released by TID = 165:
+[rdd_56_5]
+17/09/23 13:24:45 WARN Executor: 1 block locks were not released by TID = 166:
+[rdd_56_6]
+17/09/23 13:24:45 WARN Executor: 1 block locks were not released by TID = 167:
+[rdd_56_7]
+17/09/23 13:24:45 WARN Executor: 1 block locks were not released by TID = 168:
+[rdd_56_8]
+17/09/23 13:24:45 WARN Executor: 1 block locks were not released by TID = 169:
+[rdd_56_9]
+                                                                                17/09/23 13:24:45 WARN Executor: 2 block locks were not released by TID = 170:
+[rdd_56_0, rdd_70_0]
+17/09/23 13:24:45 WARN Executor: 2 block locks were not released by TID = 171:
+[rdd_70_1, rdd_56_1]
+[Stage 51:===========>                                             (2 + 2) / 10]17/09/23 13:24:46 WARN Executor: 2 block locks were not released by TID = 172:
+[rdd_70_2, rdd_56_2]
+17/09/23 13:24:46 WARN Executor: 2 block locks were not released by TID = 173:
+[rdd_70_3, rdd_56_3]
+[Stage 51:======================>                                  (4 + 2) / 10]17/09/23 13:24:47 WARN Executor: 2 block locks were not released by TID = 174:
+[rdd_70_4, rdd_56_4]
+17/09/23 13:24:47 WARN Executor: 2 block locks were not released by TID = 175:
+[rdd_70_5, rdd_56_5]
+[Stage 51:==================================>                      (6 + 2) / 10]17/09/23 13:24:47 WARN Executor: 2 block locks were not released by TID = 176:
+[rdd_70_6, rdd_56_6]
+[Stage 51:=======================================>                 (7 + 2) / 10]17/09/23 13:24:47 WARN Executor: 2 block locks were not released by TID = 177:
+[rdd_70_7, rdd_56_7]
+[Stage 51:=============================================>           (8 + 2) / 10]17/09/23 13:24:48 WARN Executor: 2 block locks were not released by TID = 178:
+[rdd_70_8, rdd_56_8]
+17/09/23 13:24:48 WARN Executor: 2 block locks were not released by TID = 179:
+[rdd_56_9, rdd_70_9]
+[Stage 52:======================>                                  (4 + 2) / 10][Stage 52:=============================================>           (8 + 2) / 10][Stage 52:===================================================>     (9 + 1) / 10]17/09/23 13:24:49 WARN Executor: 1 block locks were not released by TID = 188:
+[rdd_14_8]
+                                                                                [Stage 62:=====>                                                   (1 + 2) / 10]17/09/23 13:24:49 WARN Executor: 1 block locks were not released by TID = 191:
+[rdd_14_1]
+[Stage 62:=================>                                       (3 + 2) / 10][Stage 62:============================>                            (5 + 2) / 10][Stage 62:=============================================>           (8 + 2) / 10]17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN Executor: 1 block locks were not released by TID = 200:
+[rdd_70_0]
+17/09/23 13:24:50 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:50 WARN Executor: 1 block locks were not released by TID = 201:
+[rdd_70_1]
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+[Stage 63:===========>                                             (2 + 2) / 10]17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN Executor: 1 block locks were not released by TID = 202:
+[rdd_70_2]
+[Stage 63:=================>                                       (3 + 2) / 10]17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN Executor: 1 block locks were not released by TID = 203:
+[rdd_70_3]
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+[Stage 63:======================>                                  (4 + 2) / 10]17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN Executor: 1 block locks were not released by TID = 204:
+[rdd_70_4]
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN Executor: 1 block locks were not released by TID = 205:
+[rdd_70_5]
+[Stage 63:==================================>                      (6 + 2) / 10]17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:51 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN Executor: 1 block locks were not released by TID = 206:
+[rdd_70_6]
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN Executor: 1 block locks were not released by TID = 207:
+[rdd_70_7]
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+[Stage 63:=============================================>           (8 + 2) / 10]17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN Executor: 1 block locks were not released by TID = 208:
+[rdd_70_8]
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:24:52 WARN Executor: 1 block locks were not released by TID = 209:
+[rdd_70_9]
+                                                                                17/09/23 13:24:53 WARN Executor: 2 block locks were not released by TID = 210:
+[rdd_84_0, rdd_70_0]
+17/09/23 13:24:53 WARN Executor: 2 block locks were not released by TID = 211:
+[rdd_84_1, rdd_70_1]
+[Stage 74:===========>                                             (2 + 2) / 10]17/09/23 13:24:53 WARN Executor: 2 block locks were not released by TID = 212:
+[rdd_84_2, rdd_70_2]
+17/09/23 13:24:53 WARN Executor: 2 block locks were not released by TID = 213:
+[rdd_84_3, rdd_70_3]
+[Stage 74:======================>                                  (4 + 2) / 10]17/09/23 13:24:53 WARN Executor: 2 block locks were not released by TID = 214:
+[rdd_84_4, rdd_70_4]
+17/09/23 13:24:54 WARN Executor: 2 block locks were not released by TID = 215:
+[rdd_84_5, rdd_70_5]
+[Stage 74:==================================>                      (6 + 2) / 10]17/09/23 13:24:54 WARN Executor: 2 block locks were not released by TID = 216:
+[rdd_70_6, rdd_84_6]
+[Stage 74:=======================================>                 (7 + 2) / 10]17/09/23 13:24:54 WARN Executor: 2 block locks were not released by TID = 217:
+[rdd_70_7, rdd_84_7]
+[Stage 74:=============================================>           (8 + 2) / 10]17/09/23 13:24:54 WARN Executor: 2 block locks were not released by TID = 218:
+[rdd_70_8, rdd_84_8]
+17/09/23 13:24:54 WARN Executor: 2 block locks were not released by TID = 219:
+[rdd_84_9, rdd_70_9]
+[Stage 75:============================>                            (5 + 2) / 10]17/09/23 13:24:55 WARN Executor: 1 block locks were not released by TID = 226:
+[rdd_14_6]
+[Stage 75:==================================>                      (6 + 2) / 10]17/09/23 13:24:56 WARN Executor: 1 block locks were not released by TID = 225:
+[rdd_14_5]
+[Stage 75:=======================================>                 (7 + 2) / 10]17/09/23 13:24:56 WARN Executor: 1 block locks were not released by TID = 227:
+[rdd_14_7]
+[Stage 75:=============================================>           (8 + 2) / 10]17/09/23 13:24:56 WARN Executor: 1 block locks were not released by TID = 228:
+[rdd_14_8]
+[Stage 75:===================================================>     (9 + 1) / 10]17/09/23 13:24:56 WARN Executor: 1 block locks were not released by TID = 229:
+[rdd_14_9]
+                                                                                [Stage 87:>                                                        (0 + 2) / 10]17/09/23 13:24:57 WARN Executor: 2 block locks were not released by TID = 231:
+[rdd_14_1, rdd_90_1]
+[Stage 87:=====>                                                   (1 + 2) / 10]17/09/23 13:24:57 WARN Executor: 2 block locks were not released by TID = 230:
+[rdd_14_0, rdd_90_0]
+[Stage 87:===========>                                             (2 + 2) / 10]17/09/23 13:24:58 WARN Executor: 2 block locks were not released by TID = 232:
+[rdd_14_2, rdd_90_2]
+[Stage 87:=================>                                       (3 + 2) / 10]17/09/23 13:24:58 WARN Executor: 2 block locks were not released by TID = 233:
+[rdd_90_3, rdd_14_3]
+[Stage 87:======================>                                  (4 + 2) / 10]17/09/23 13:24:58 WARN Executor: 1 block locks were not released by TID = 235:
+[rdd_90_5]
+[Stage 87:============================>                            (5 + 2) / 10]17/09/23 13:24:59 WARN Executor: 1 block locks were not released by TID = 236:
+[rdd_90_6]
+[Stage 87:==================================>                      (6 + 2) / 10]17/09/23 13:24:59 WARN Executor: 1 block locks were not released by TID = 237:
+[rdd_90_7]
+17/09/23 13:24:59 WARN Executor: 1 block locks were not released by TID = 238:
+[rdd_90_8]
+[Stage 87:=============================================>           (8 + 2) / 10]17/09/23 13:24:59 WARN Executor: 1 block locks were not released by TID = 239:
+[rdd_90_9]
+[Stage 87:===================================================>     (9 + 1) / 10]17/09/23 13:25:02 WARN Executor: 2 block locks were not released by TID = 234:
+[rdd_90_4, rdd_14_4]
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+[Stage 88:>                                                        (0 + 2) / 10]17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:02 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN Executor: 1 block locks were not released by TID = 240:
+[rdd_84_0]
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN Executor: 1 block locks were not released by TID = 241:
+[rdd_84_1]
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+[Stage 88:===========>                                             (2 + 2) / 10]17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:03 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN Executor: 1 block locks were not released by TID = 242:
+[rdd_84_2]
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN Executor: 1 block locks were not released by TID = 243:
+[rdd_84_3]
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+[Stage 88:======================>                                  (4 + 2) / 10]17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:04 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN Executor: 1 block locks were not released by TID = 244:
+[rdd_84_4]
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN Executor: 1 block locks were not released by TID = 245:
+[rdd_84_5]
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+[Stage 88:==================================>                      (6 + 2) / 10]17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:05 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:06 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN Executor: 1 block locks were not released by TID = 246:
+[rdd_84_6]
+17/09/23 13:25:07 WARN Executor: 1 block locks were not released by TID = 247:
+[rdd_84_7]
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+[Stage 88:=============================================>           (8 + 2) / 10]17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:07 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/23 13:25:08 WARN Executor: 1 block locks were not released by TID = 248:
+[rdd_84_8]
+17/09/23 13:25:08 WARN Executor: 1 block locks were not released by TID = 249:
+[rdd_84_9]
+17/09/23 13:25:08 WARN Executor: 1 block locks were not released by TID = 250:
+[rdd_90_0]
+17/09/23 13:25:08 WARN Executor: 1 block locks were not released by TID = 251:
+[rdd_90_1]
+17/09/23 13:25:08 WARN Executor: 1 block locks were not released by TID = 252:
+[rdd_90_2]
+17/09/23 13:25:08 WARN Executor: 1 block locks were not released by TID = 253:
+[rdd_90_3]
+17/09/23 13:25:08 WARN Executor: 1 block locks were not released by TID = 254:
+[rdd_90_4]
+[Stage 89:============================>                            (5 + 2) / 10]17/09/23 13:25:08 WARN Executor: 1 block locks were not released by TID = 255:
+[rdd_90_5]
+[Stage 89:==================================>                      (6 + 2) / 10]17/09/23 13:25:10 WARN Executor: 1 block locks were not released by TID = 256:
+[rdd_90_6]
+[Stage 89:=======================================>                 (7 + 2) / 10]17/09/23 13:25:10 WARN Executor: 1 block locks were not released by TID = 257:
+[rdd_90_7]
+[Stage 89:=============================================>           (8 + 2) / 10]17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 258:
+[rdd_90_8]
+17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 259:
+[rdd_90_9]
+                                                                                17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 261:
+[rdd_102_1]
+17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 260:
+[rdd_102_0]
+17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 262:
+[rdd_102_2]
+17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 263:
+[rdd_102_3]
+17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 264:
+[rdd_102_4]
+17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 265:
+[rdd_102_5]
+17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 266:
+[rdd_102_6]
+17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 267:
+[rdd_102_7]
+17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 268:
+[rdd_102_8]
+17/09/23 13:25:11 WARN Executor: 1 block locks were not released by TID = 269:
+[rdd_102_9]
+the err is 0.50

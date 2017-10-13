@@ -1,0 +1,16 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/07/21 16:42:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/07/21 16:42:27 WARN Utils: Your hostname, glados-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+17/07/21 16:42:27 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+17/07/21 16:42:30 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+17/07/21 16:42:30 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+17/07/21 16:42:30 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/07/21 16:42:30 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+17/07/21 16:42:30 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+[Stage 0:>                                                          (0 + 0) / 2]17/07/21 16:42:31 INFO FileOutputCommitter: Saved output of task 'attempt_20170721164230_0000_m_000001_1' to file:/home/whoami/SparkBench/PageRank/Input/_temporary/0/task_20170721164230_0000_m_000001
+17/07/21 16:42:31 INFO FileOutputCommitter: Saved output of task 'attempt_20170721164230_0000_m_000000_0' to file:/home/whoami/SparkBench/PageRank/Input/_temporary/0/task_20170721164230_0000_m_000000
+17/07/21 16:42:31 WARN Executor: 1 block locks were not released by TID = 0:
+[rdd_13_0]
+17/07/21 16:42:31 WARN Executor: 1 block locks were not released by TID = 1:
+[rdd_13_1]
+[Stage 0:>                                                          (0 + 2) / 2]                                                                                

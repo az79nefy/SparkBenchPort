@@ -1,0 +1,190 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/09/23 13:46:34 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/09/23 13:46:34 WARN Utils: Your hostname, glados-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+17/09/23 13:46:34 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+17/09/23 13:46:34 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+17/09/23 13:46:34 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+17/09/23 13:46:34 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/09/23 13:46:34 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+17/09/23 13:46:34 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+[Stage 0:>                                                         (0 + 0) / 60]17/09/23 13:46:35 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000000_0' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000000
+17/09/23 13:46:35 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000001_1' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000001
+17/09/23 13:46:35 WARN Executor: 1 block locks were not released by TID = 0:
+[rdd_13_0]
+17/09/23 13:46:35 WARN Executor: 1 block locks were not released by TID = 1:
+[rdd_13_1]
+17/09/23 13:46:35 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000002_2' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000002
+17/09/23 13:46:35 WARN Executor: 1 block locks were not released by TID = 2:
+[rdd_13_2]
+17/09/23 13:46:35 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000003_3' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000003
+17/09/23 13:46:35 WARN Executor: 1 block locks were not released by TID = 3:
+[rdd_13_3]
+[Stage 0:===>                                                      (4 + 2) / 60]17/09/23 13:46:35 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000005_5' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000005
+17/09/23 13:46:35 WARN Executor: 1 block locks were not released by TID = 5:
+[rdd_13_5]
+17/09/23 13:46:35 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000004_4' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000004
+17/09/23 13:46:35 WARN Executor: 1 block locks were not released by TID = 4:
+[rdd_13_4]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000007_7' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000007
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 7:
+[rdd_13_7]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000006_6' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000006
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 6:
+[rdd_13_6]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000009_9' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000009
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 9:
+[rdd_13_9]
+[Stage 0:=======>                                                  (8 + 2) / 60]17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000008_8' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000008
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 8:
+[rdd_13_8]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000011_11' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000011
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 11:
+[rdd_13_11]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000010_10' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000010
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 10:
+[rdd_13_10]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000012_12' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000012
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 12:
+[rdd_13_12]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000013_13' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000013
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 13:
+[rdd_13_13]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000015_15' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000015
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 15:
+[rdd_13_15]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000014_14' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000014
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 14:
+[rdd_13_14]
+[Stage 0:===============>                                         (16 + 2) / 60]17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000017_17' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000017
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 17:
+[rdd_13_17]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000016_16' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000016
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 16:
+[rdd_13_16]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000018_18' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000018
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 18:
+[rdd_13_18]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000019_19' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000019
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 19:
+[rdd_13_19]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000020_20' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000020
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 20:
+[rdd_13_20]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000021_21' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000021
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000022_22' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000022
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 21:
+[rdd_13_21]
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 22:
+[rdd_13_22]
+[Stage 0:=====================>                                   (23 + 2) / 60]17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000023_23' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000023
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 23:
+[rdd_13_23]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000024_24' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000024
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 24:
+[rdd_13_24]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000025_25' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000025
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 25:
+[rdd_13_25]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000026_26' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000026
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 26:
+[rdd_13_26]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000027_27' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000027
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 27:
+[rdd_13_27]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000028_28' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000028
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 28:
+[rdd_13_28]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000029_29' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000029
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 29:
+[rdd_13_29]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000030_30' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000030
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 30:
+[rdd_13_30]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000031_31' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000031
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 31:
+[rdd_13_31]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000032_32' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000032
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 32:
+[rdd_13_32]
+[Stage 0:==============================>                          (32 + 3) / 60]17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000033_33' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000033
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 33:
+[rdd_13_33]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000034_34' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000034
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 34:
+[rdd_13_34]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000035_35' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000035
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 35:
+[rdd_13_35]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000037_37' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000037
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 37:
+[rdd_13_37]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000036_36' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000036
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 36:
+[rdd_13_36]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000038_38' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000038
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 38:
+[rdd_13_38]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000039_39' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000039
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 39:
+[rdd_13_39]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000041_41' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000041
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 41:
+[rdd_13_41]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000040_40' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000040
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 40:
+[rdd_13_40]
+[Stage 0:=======================================>                 (42 + 2) / 60]17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000043_43' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000043
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 43:
+[rdd_13_43]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000042_42' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000042
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 42:
+[rdd_13_42]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000045_45' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000045
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 45:
+[rdd_13_45]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000044_44' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000044
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 44:
+[rdd_13_44]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000047_47' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000047
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 47:
+[rdd_13_47]
+17/09/23 13:46:36 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000046_46' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000046
+17/09/23 13:46:36 WARN Executor: 1 block locks were not released by TID = 46:
+[rdd_13_46]
+17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000048_48' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000048
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 48:
+[rdd_13_48]
+17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000049_49' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000049
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 49:
+[rdd_13_49]
+17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000050_50' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000050
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 50:
+[rdd_13_50]
+17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000051_51' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000051
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 51:
+[rdd_13_51]
+17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000052_52' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000052
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 52:
+[rdd_13_52]
+[Stage 0:=================================================>       (52 + 2) / 60]17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000053_53' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000053
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 53:
+[rdd_13_53]
+17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000054_54' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000054
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 54:
+[rdd_13_54]
+17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000055_55' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000055
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 55:
+[rdd_13_55]
+17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000056_56' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000056
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 56:
+[rdd_13_56]
+17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000057_57' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000057
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 57:
+[rdd_13_57]
+17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000058_58' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000058
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 58:
+[rdd_13_58]
+17/09/23 13:46:37 INFO FileOutputCommitter: Saved output of task 'attempt_20170923134634_0000_m_000059_59' to file:/home/whoami/SparkBench/TriangleCount/Input/_temporary/0/task_20170923134634_0000_m_000059
+17/09/23 13:46:37 WARN Executor: 1 block locks were not released by TID = 59:
+[rdd_13_59]
+                                                                                

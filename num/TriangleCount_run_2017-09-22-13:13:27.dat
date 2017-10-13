@@ -1,0 +1,671 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/09/22 13:13:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/09/22 13:13:28 WARN Utils: Your hostname, glados-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+17/09/22 13:13:28 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+17/09/22 13:13:29 INFO FileInputFormat: Total input paths to process : 60
+17/09/22 13:13:29 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+17/09/22 13:13:29 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+17/09/22 13:13:29 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/09/22 13:13:29 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+17/09/22 13:13:29 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+[Stage 0:=============>                                           (14 + 2) / 60][Stage 0:========================>                                (26 + 2) / 60][Stage 0:========================================>                (43 + 2) / 60][Stage 0:===================================================>     (54 + 2) / 60]                                                                                17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 60:
+[rdd_3_0]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 61:
+[rdd_3_1]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 63:
+[rdd_3_3]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 62:
+[rdd_3_2]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 64:
+[rdd_3_4]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 66:
+[rdd_3_6]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 65:
+[rdd_3_5]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 67:
+[rdd_3_7]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 68:
+[rdd_3_8]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 69:
+[rdd_3_9]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 71:
+[rdd_3_11]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 70:
+[rdd_3_10]
+[Stage 1:===>             (12 + 2) / 60][Stage 3:>                 (0 + 0) / 60]17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 72:
+[rdd_3_12]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 73:
+[rdd_3_13]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 74:
+[rdd_3_14]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 75:
+[rdd_3_15]
+[Stage 1:====>            (16 + 2) / 60][Stage 3:>                 (0 + 0) / 60]17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 76:
+[rdd_3_16]
+17/09/22 13:13:31 WARN Executor: 1 block locks were not released by TID = 77:
+[rdd_3_17]
+[Stage 1:=====>           (18 + 2) / 60][Stage 3:>                 (0 + 0) / 60]17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 78:
+[rdd_3_18]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 79:
+[rdd_3_19]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 81:
+[rdd_3_21]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 80:
+[rdd_3_20]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 82:
+[rdd_3_22]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 83:
+[rdd_3_23]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 84:
+[rdd_3_24]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 85:
+[rdd_3_25]
+[Stage 1:=======>         (26 + 2) / 60][Stage 3:>                 (0 + 0) / 60]17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 86:
+[rdd_3_26]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 87:
+[rdd_3_27]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 88:
+[rdd_3_28]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 90:
+[rdd_3_30]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 89:
+[rdd_3_29]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 91:
+[rdd_3_31]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 92:
+[rdd_3_32]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 93:
+[rdd_3_33]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 94:
+[rdd_3_34]
+[Stage 1:=========>       (34 + 2) / 60][Stage 3:>                 (0 + 0) / 60]17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 95:
+[rdd_3_35]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 96:
+[rdd_3_36]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 98:
+[rdd_3_38]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 97:
+[rdd_3_37]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 99:
+[rdd_3_39]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 100:
+[rdd_3_40]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 101:
+[rdd_3_41]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 102:
+[rdd_3_42]
+[Stage 1:===========>     (42 + 2) / 60][Stage 3:>                 (0 + 0) / 60]17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 103:
+[rdd_3_43]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 104:
+[rdd_3_44]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 105:
+[rdd_3_45]
+[Stage 1:============>    (45 + 2) / 60][Stage 3:>                 (0 + 0) / 60]17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 106:
+[rdd_3_46]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 108:
+[rdd_3_48]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 107:
+[rdd_3_47]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 109:
+[rdd_3_49]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 110:
+[rdd_3_50]
+17/09/22 13:13:32 WARN Executor: 1 block locks were not released by TID = 111:
+[rdd_3_51]
+17/09/22 13:13:33 WARN Executor: 1 block locks were not released by TID = 112:
+[rdd_3_52]
+17/09/22 13:13:33 WARN Executor: 1 block locks were not released by TID = 113:
+[rdd_3_53]
+[Stage 1:===============> (53 + 2) / 60][Stage 3:>                 (0 + 0) / 60]17/09/22 13:13:33 WARN Executor: 1 block locks were not released by TID = 114:
+[rdd_3_54]
+17/09/22 13:13:33 WARN Executor: 1 block locks were not released by TID = 115:
+[rdd_3_55]
+17/09/22 13:13:33 WARN Executor: 1 block locks were not released by TID = 116:
+[rdd_3_56]
+17/09/22 13:13:33 WARN Executor: 1 block locks were not released by TID = 117:
+[rdd_3_57]
+17/09/22 13:13:33 WARN Executor: 1 block locks were not released by TID = 118:
+[rdd_3_58]
+17/09/22 13:13:33 WARN Executor: 1 block locks were not released by TID = 119:
+[rdd_3_59]
+[Stage 3:>                                                         (1 + 2) / 60][Stage 3:==>                                                       (3 + 0) / 60][Stage 2:====>            (16 + 2) / 60][Stage 3:>                 (3 + 0) / 60][Stage 2:=======>         (25 + 2) / 60][Stage 3:>                 (3 + 0) / 60][Stage 2:========>        (31 + 2) / 60][Stage 3:>                 (3 + 0) / 60][Stage 2:===========>     (40 + 2) / 60][Stage 3:>                 (3 + 0) / 60][Stage 2:=============>   (47 + 2) / 60][Stage 3:>                 (3 + 0) / 60][Stage 2:===============> (56 + 2) / 60][Stage 3:>                 (3 + 0) / 60][Stage 3:=========>                                               (10 + 2) / 60][Stage 3:======================>                                  (24 + 2) / 60][Stage 3:=====================================>                   (39 + 2) / 60][Stage 3:==============================================>          (49 + 2) / 60][Stage 4:===========================>                             (29 + 2) / 60][Stage 4:===================================>                     (37 + 2) / 60][Stage 4:============================================>            (47 + 2) / 60][Stage 4:========================================================>(59 + 1) / 60]17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 301:
+[rdd_14_1]
+17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 300:
+[rdd_14_0]
+17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 302:
+[rdd_14_2]
+17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 303:
+[rdd_14_3]
+17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 304:
+[rdd_14_4]
+17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 306:
+[rdd_14_6]
+17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 305:
+[rdd_14_5]
+[Stage 5:======>                                                   (7 + 2) / 60]17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 308:
+[rdd_14_8]
+17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 307:
+[rdd_14_7]
+17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 309:
+[rdd_14_9]
+17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 310:
+[rdd_14_10]
+[Stage 5:==========>                                              (11 + 2) / 60]17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 311:
+[rdd_14_11]
+17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 312:
+[rdd_14_12]
+17/09/22 13:13:37 WARN Executor: 1 block locks were not released by TID = 313:
+[rdd_14_13]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 314:
+[rdd_14_14]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 315:
+[rdd_14_15]
+[Stage 5:===============>                                         (16 + 2) / 60]17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 316:
+[rdd_14_16]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 318:
+[rdd_14_18]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 317:
+[rdd_14_17]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 320:
+[rdd_14_20]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 319:
+[rdd_14_19]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 322:
+[rdd_14_22]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 321:
+[rdd_14_21]
+[Stage 5:=====================>                                   (23 + 2) / 60]17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 323:
+[rdd_14_23]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 324:
+[rdd_14_24]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 325:
+[rdd_14_25]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 326:
+[rdd_14_26]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 327:
+[rdd_14_27]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 328:
+[rdd_14_28]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 330:
+[rdd_14_30]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 329:
+[rdd_14_29]
+[Stage 5:=============================>                           (31 + 2) / 60]17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 332:
+[rdd_14_32]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 331:
+[rdd_14_31]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 333:
+[rdd_14_33]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 334:
+[rdd_14_34]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 335:
+[rdd_14_35]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 336:
+[rdd_14_36]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 338:
+[rdd_14_38]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 337:
+[rdd_14_37]
+[Stage 5:=====================================>                   (39 + 2) / 60]17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 339:
+[rdd_14_39]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 340:
+[rdd_14_40]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 342:
+[rdd_14_42]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 341:
+[rdd_14_41]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 343:
+[rdd_14_43]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 344:
+[rdd_14_44]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 345:
+[rdd_14_45]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 346:
+[rdd_14_46]
+[Stage 5:============================================>            (47 + 2) / 60]17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 347:
+[rdd_14_47]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 348:
+[rdd_14_48]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 349:
+[rdd_14_49]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 350:
+[rdd_14_50]
+17/09/22 13:13:38 WARN Executor: 1 block locks were not released by TID = 351:
+[rdd_14_51]
+17/09/22 13:13:39 WARN Executor: 1 block locks were not released by TID = 352:
+[rdd_14_52]
+17/09/22 13:13:39 WARN Executor: 1 block locks were not released by TID = 353:
+[rdd_14_53]
+17/09/22 13:13:39 WARN Executor: 1 block locks were not released by TID = 354:
+[rdd_14_54]
+17/09/22 13:13:39 WARN Executor: 1 block locks were not released by TID = 355:
+[rdd_14_55]
+[Stage 5:=====================================================>   (56 + 2) / 60]17/09/22 13:13:39 WARN Executor: 1 block locks were not released by TID = 356:
+[rdd_14_56]
+17/09/22 13:13:39 WARN Executor: 1 block locks were not released by TID = 357:
+[rdd_14_57]
+17/09/22 13:13:39 WARN Executor: 1 block locks were not released by TID = 358:
+[rdd_14_58]
+17/09/22 13:13:39 WARN Executor: 1 block locks were not released by TID = 359:
+[rdd_14_59]
+[Stage 6:===>             (14 + 2) / 60][Stage 7:>                 (0 + 0) / 60][Stage 6:=====>           (21 + 2) / 60][Stage 7:>                 (0 + 0) / 60][Stage 6:========>        (29 + 2) / 60][Stage 7:>                 (0 + 0) / 60][Stage 6:===========>     (39 + 2) / 60][Stage 7:>                 (0 + 0) / 60][Stage 6:============>    (45 + 2) / 60][Stage 7:>                 (0 + 0) / 60][Stage 6:===============> (53 + 2) / 60][Stage 7:>                 (0 + 0) / 60][Stage 7:>                                                         (0 + 2) / 60][Stage 7:========>                                                 (9 + 2) / 60][Stage 7:==============>                                          (15 + 2) / 60][Stage 7:=====================>                                   (23 + 2) / 60][Stage 7:============================>                            (30 + 2) / 60][Stage 7:===================================>                     (37 + 2) / 60][Stage 7:==========================================>              (45 + 2) / 60][Stage 7:=================================================>       (52 + 2) / 60]17/09/22 13:13:42 WARN Executor: 2 block locks were not released by TID = 480:
+[rdd_40_0, rdd_19_0]
+17/09/22 13:13:42 WARN Executor: 2 block locks were not released by TID = 481:
+[rdd_40_1, rdd_19_1]
+17/09/22 13:13:42 WARN Executor: 2 block locks were not released by TID = 482:
+[rdd_40_2, rdd_19_2]
+17/09/22 13:13:42 WARN Executor: 2 block locks were not released by TID = 483:
+[rdd_40_3, rdd_19_3]
+17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 484:
+[rdd_19_4, rdd_40_4]
+17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 485:
+[rdd_19_5, rdd_40_5]
+[Stage 8:=====>                                                    (6 + 2) / 60]17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 486:
+[rdd_19_6, rdd_40_6]
+17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 487:
+[rdd_19_7, rdd_40_7]
+[Stage 8:=======>                                                  (8 + 2) / 60]17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 488:
+[rdd_19_8, rdd_40_8]
+17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 489:
+[rdd_19_9, rdd_40_9]
+17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 490:
+[rdd_19_10, rdd_40_10]
+[Stage 8:==========>                                              (11 + 2) / 60]17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 491:
+[rdd_19_11, rdd_40_11]
+17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 492:
+[rdd_19_12, rdd_40_12]
+17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 493:
+[rdd_19_13, rdd_40_13]
+[Stage 8:=============>                                           (14 + 2) / 60]17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 494:
+[rdd_19_14, rdd_40_14]
+17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 495:
+[rdd_40_15, rdd_19_15]
+[Stage 8:===============>                                         (16 + 2) / 60]17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 496:
+[rdd_40_16, rdd_19_16]
+17/09/22 13:13:43 WARN Executor: 2 block locks were not released by TID = 497:
+[rdd_40_17, rdd_19_17]
+17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 498:
+[rdd_40_18, rdd_19_18]
+17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 499:
+[rdd_40_19, rdd_19_19]
+[Stage 8:===================>                                     (20 + 2) / 60]17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 500:
+[rdd_19_20, rdd_40_20]
+17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 501:
+[rdd_19_21, rdd_40_21]
+[Stage 8:====================>                                    (22 + 2) / 60]17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 502:
+[rdd_19_22, rdd_40_22]
+17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 503:
+[rdd_19_23, rdd_40_23]
+17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 504:
+[rdd_19_24, rdd_40_24]
+[Stage 8:=======================>                                 (25 + 2) / 60]17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 505:
+[rdd_19_25, rdd_40_25]
+17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 506:
+[rdd_40_26, rdd_19_26]
+17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 507:
+[rdd_40_27, rdd_19_27]
+[Stage 8:==========================>                              (28 + 2) / 60]17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 509:
+[rdd_40_29, rdd_19_29]
+17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 508:
+[rdd_40_28, rdd_19_28]
+[Stage 8:============================>                            (30 + 2) / 60]17/09/22 13:13:44 WARN Executor: 2 block locks were not released by TID = 510:
+[rdd_40_30, rdd_19_30]
+17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 511:
+[rdd_19_31, rdd_40_31]
+[Stage 8:==============================>                          (32 + 2) / 60]17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 512:
+[rdd_19_32, rdd_40_32]
+17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 513:
+[rdd_19_33, rdd_40_33]
+17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 514:
+[rdd_19_34, rdd_40_34]
+[Stage 8:=================================>                       (35 + 2) / 60]17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 515:
+[rdd_19_35, rdd_40_35]
+17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 516:
+[rdd_19_36, rdd_40_36]
+[Stage 8:===================================>                     (37 + 2) / 60]17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 517:
+[rdd_40_37, rdd_19_37]
+17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 518:
+[rdd_40_38, rdd_19_38]
+17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 519:
+[rdd_40_39, rdd_19_39]
+17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 520:
+[rdd_40_40, rdd_19_40]
+[Stage 8:======================================>                  (41 + 2) / 60]17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 521:
+[rdd_40_41, rdd_19_41]
+17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 522:
+[rdd_19_42, rdd_40_42]
+[Stage 8:========================================>                (43 + 2) / 60]17/09/22 13:13:45 WARN Executor: 2 block locks were not released by TID = 523:
+[rdd_19_43, rdd_40_43]
+17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 524:
+[rdd_19_44, rdd_40_44]
+17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 525:
+[rdd_19_45, rdd_40_45]
+[Stage 8:===========================================>             (46 + 2) / 60]17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 526:
+[rdd_19_46, rdd_40_46]
+17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 527:
+[rdd_19_47, rdd_40_47]
+17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 528:
+[rdd_40_48, rdd_19_48]
+[Stage 8:==============================================>          (49 + 2) / 60]17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 529:
+[rdd_40_49, rdd_19_49]
+17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 530:
+[rdd_19_50, rdd_40_50]
+17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 531:
+[rdd_40_51, rdd_19_51]
+[Stage 8:=================================================>       (52 + 2) / 60]17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 532:
+[rdd_40_52, rdd_19_52]
+17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 533:
+[rdd_19_53, rdd_40_53]
+17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 534:
+[rdd_19_54, rdd_40_54]
+[Stage 8:====================================================>    (55 + 2) / 60]17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 536:
+[rdd_19_56, rdd_40_56]
+17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 535:
+[rdd_19_55, rdd_40_55]
+[Stage 8:======================================================>  (57 + 2) / 60]17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 537:
+[rdd_19_57, rdd_40_57]
+17/09/22 13:13:46 WARN Executor: 2 block locks were not released by TID = 538:
+[rdd_19_58, rdd_40_58]
+17/09/22 13:13:47 WARN Executor: 2 block locks were not released by TID = 539:
+[rdd_40_59, rdd_19_59]
+17/09/22 13:13:47 WARN Executor: 1 block locks were not released by TID = 541:
+[rdd_43_1]
+17/09/22 13:13:47 WARN Executor: 1 block locks were not released by TID = 540:
+[rdd_43_0]
+17/09/22 13:13:47 WARN Executor: 1 block locks were not released by TID = 542:
+[rdd_43_2]
+17/09/22 13:13:47 WARN Executor: 1 block locks were not released by TID = 543:
+[rdd_43_3]
+17/09/22 13:13:47 WARN Executor: 1 block locks were not released by TID = 544:
+[rdd_43_4]
+17/09/22 13:13:47 WARN Executor: 1 block locks were not released by TID = 545:
+[rdd_43_5]
+[Stage 9:=====>                                                    (6 + 2) / 60]17/09/22 13:13:47 WARN Executor: 1 block locks were not released by TID = 547:
+[rdd_43_7]
+17/09/22 13:13:47 WARN Executor: 1 block locks were not released by TID = 546:
+[rdd_43_6]
+[Stage 9:=======>                                                  (8 + 2) / 60]17/09/22 13:13:48 WARN Executor: 1 block locks were not released by TID = 548:
+[rdd_43_8]
+17/09/22 13:13:48 WARN Executor: 1 block locks were not released by TID = 549:
+[rdd_43_9]
+[Stage 9:=========>                                               (10 + 2) / 60]17/09/22 13:13:48 WARN Executor: 1 block locks were not released by TID = 550:
+[rdd_43_10]
+17/09/22 13:13:48 WARN Executor: 1 block locks were not released by TID = 551:
+[rdd_43_11]
+[Stage 9:===========>                                             (12 + 2) / 60]17/09/22 13:13:48 WARN Executor: 1 block locks were not released by TID = 553:
+[rdd_43_13]
+17/09/22 13:13:48 WARN Executor: 1 block locks were not released by TID = 552:
+[rdd_43_12]
+[Stage 9:=============>                                           (14 + 2) / 60]17/09/22 13:13:48 WARN Executor: 1 block locks were not released by TID = 554:
+[rdd_43_14]
+17/09/22 13:13:48 WARN Executor: 1 block locks were not released by TID = 555:
+[rdd_43_15]
+[Stage 9:===============>                                         (16 + 2) / 60]17/09/22 13:13:48 WARN Executor: 1 block locks were not released by TID = 556:
+[rdd_43_16]
+17/09/22 13:13:48 WARN Executor: 1 block locks were not released by TID = 557:
+[rdd_43_17]
+17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 558:
+[rdd_43_18]
+[Stage 9:==================>                                      (19 + 2) / 60]17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 559:
+[rdd_43_19]
+17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 560:
+[rdd_43_20]
+17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 561:
+[rdd_43_21]
+[Stage 9:====================>                                    (22 + 2) / 60]17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 562:
+[rdd_43_22]
+17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 563:
+[rdd_43_23]
+[Stage 9:======================>                                  (24 + 2) / 60]17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 564:
+[rdd_43_24]
+17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 565:
+[rdd_43_25]
+[Stage 9:========================>                                (26 + 2) / 60]17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 566:
+[rdd_43_26]
+17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 567:
+[rdd_43_27]
+[Stage 9:==========================>                              (28 + 2) / 60]17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 568:
+[rdd_43_28]
+17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 569:
+[rdd_43_29]
+17/09/22 13:13:49 WARN Executor: 1 block locks were not released by TID = 570:
+[rdd_43_30]
+[Stage 9:=============================>                           (31 + 2) / 60]17/09/22 13:13:50 WARN Executor: 1 block locks were not released by TID = 571:
+[rdd_43_31]
+17/09/22 13:13:50 WARN Executor: 1 block locks were not released by TID = 572:
+[rdd_43_32]
+17/09/22 13:13:50 WARN Executor: 1 block locks were not released by TID = 573:
+[rdd_43_33]
+[Stage 9:===============================>                         (33 + 2) / 60]17/09/22 13:13:50 WARN Executor: 1 block locks were not released by TID = 574:
+[rdd_43_34]
+17/09/22 13:13:50 WARN Executor: 1 block locks were not released by TID = 575:
+[rdd_43_35]
+[Stage 9:==================================>                      (36 + 2) / 60]17/09/22 13:13:50 WARN Executor: 1 block locks were not released by TID = 576:
+[rdd_43_36]
+17/09/22 13:13:50 WARN Executor: 1 block locks were not released by TID = 577:
+[rdd_43_37]
+[Stage 9:====================================>                    (38 + 2) / 60]17/09/22 13:13:50 WARN Executor: 1 block locks were not released by TID = 578:
+[rdd_43_38]
+17/09/22 13:13:50 WARN Executor: 1 block locks were not released by TID = 579:
+[rdd_43_39]
+[Stage 9:======================================>                  (40 + 2) / 60]17/09/22 13:13:50 WARN Executor: 1 block locks were not released by TID = 580:
+[rdd_43_40]
+17/09/22 13:13:50 WARN Executor: 1 block locks were not released by TID = 581:
+[rdd_43_41]
+[Stage 9:=======================================>                 (42 + 2) / 60]17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 582:
+[rdd_43_42]
+17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 583:
+[rdd_43_43]
+17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 584:
+[rdd_43_44]
+[Stage 9:==========================================>              (45 + 2) / 60]17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 585:
+[rdd_43_45]
+17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 586:
+[rdd_43_46]
+[Stage 9:============================================>            (47 + 2) / 60]17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 587:
+[rdd_43_47]
+17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 588:
+[rdd_43_48]
+[Stage 9:==============================================>          (49 + 2) / 60]17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 589:
+[rdd_43_49]
+17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 590:
+[rdd_43_50]
+17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 591:
+[rdd_43_51]
+[Stage 9:=================================================>       (52 + 2) / 60]17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 592:
+[rdd_43_52]
+17/09/22 13:13:51 WARN Executor: 1 block locks were not released by TID = 593:
+[rdd_43_53]
+[Stage 9:===================================================>     (54 + 2) / 60]17/09/22 13:13:52 WARN Executor: 1 block locks were not released by TID = 594:
+[rdd_43_54]
+17/09/22 13:13:52 WARN Executor: 1 block locks were not released by TID = 595:
+[rdd_43_55]
+[Stage 9:=====================================================>   (56 + 2) / 60]17/09/22 13:13:52 WARN Executor: 1 block locks were not released by TID = 596:
+[rdd_43_56]
+17/09/22 13:13:52 WARN Executor: 1 block locks were not released by TID = 597:
+[rdd_43_57]
+[Stage 9:=======================================================> (58 + 2) / 60]17/09/22 13:13:52 WARN Executor: 1 block locks were not released by TID = 598:
+[rdd_43_58]
+17/09/22 13:13:52 WARN Executor: 1 block locks were not released by TID = 599:
+[rdd_43_59]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 601:
+[rdd_53_1, rdd_65_1, rdd_40_1, rdd_19_1]
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 600:
+[rdd_65_0, rdd_53_0, rdd_40_0, rdd_19_0]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 603:
+[rdd_40_3, rdd_19_3, rdd_53_3, rdd_65_3]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 602:
+[rdd_40_2, rdd_65_2, rdd_19_2, rdd_53_2]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 604:
+[rdd_19_4, rdd_40_4, rdd_65_4, rdd_53_4]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 605:
+[rdd_19_5, rdd_40_5, rdd_53_5, rdd_65_5]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 606:
+[rdd_19_6, rdd_40_6, rdd_65_6, rdd_53_6]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 607:
+[rdd_19_7, rdd_65_7, rdd_40_7, rdd_53_7]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 608:
+[rdd_19_8, rdd_65_8, rdd_53_8, rdd_40_8]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 609:
+[rdd_19_9, rdd_53_9, rdd_65_9, rdd_40_9]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 610:
+[rdd_19_10, rdd_40_10, rdd_53_10, rdd_65_10]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 611:
+[rdd_19_11, rdd_40_11, rdd_53_11, rdd_65_11]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 612:
+[rdd_19_12, rdd_53_12, rdd_65_12, rdd_40_12]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 613:
+[rdd_19_13, rdd_40_13, rdd_65_13, rdd_53_13]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 614:
+[rdd_19_14, rdd_40_14, rdd_53_14, rdd_65_14]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 615:
+[rdd_40_15, rdd_53_15, rdd_19_15, rdd_65_15]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 616:
+[rdd_53_16, rdd_65_16, rdd_40_16, rdd_19_16]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 617:
+[rdd_40_17, rdd_65_17, rdd_53_17, rdd_19_17]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 618:
+[rdd_40_18, rdd_53_18, rdd_65_18, rdd_19_18]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 619:
+[rdd_40_19, rdd_53_19, rdd_65_19, rdd_19_19]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 620:
+[rdd_19_20, rdd_40_20, rdd_65_20, rdd_53_20]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 622:
+[rdd_19_22, rdd_40_22, rdd_53_22, rdd_65_22]
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 621:
+[rdd_19_21, rdd_40_21, rdd_53_21, rdd_65_21]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 624:
+[rdd_19_24, rdd_40_24, rdd_65_24, rdd_53_24]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 623:
+[rdd_19_23, rdd_53_23, rdd_65_23, rdd_40_23]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 625:
+[rdd_19_25, rdd_40_25, rdd_53_25, rdd_65_25]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 626:
+[rdd_40_26, rdd_53_26, rdd_19_26, rdd_65_26]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 627:
+[rdd_53_27, rdd_65_27, rdd_40_27, rdd_19_27]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 628:
+[rdd_40_28, rdd_65_28, rdd_53_28, rdd_19_28]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 629:
+[rdd_40_29, rdd_53_29, rdd_65_29, rdd_19_29]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 631:
+[rdd_19_31, rdd_40_31, rdd_65_31, rdd_53_31]
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 630:
+[rdd_53_30, rdd_65_30, rdd_40_30, rdd_19_30]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 632:
+[rdd_19_32, rdd_40_32, rdd_53_32, rdd_65_32]
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 633:
+[rdd_19_33, rdd_40_33, rdd_53_33, rdd_65_33]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 635:
+[rdd_19_35, rdd_40_35, rdd_65_35, rdd_53_35]
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 634:
+[rdd_19_34, rdd_53_34, rdd_65_34, rdd_40_34]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 636:
+[rdd_19_36, rdd_40_36, rdd_53_36, rdd_65_36]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 637:
+[rdd_40_37, rdd_53_37, rdd_19_37, rdd_65_37]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 638:
+[rdd_53_38, rdd_65_38, rdd_40_38, rdd_19_38]
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 639:
+[rdd_40_39, rdd_65_39, rdd_53_39, rdd_19_39]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 641:
+[rdd_53_41, rdd_65_41, rdd_40_41, rdd_19_41]
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 640:
+[rdd_65_40, rdd_40_40, rdd_53_40, rdd_19_40]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 643:
+[rdd_19_43, rdd_40_43, rdd_53_43, rdd_65_43]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 642:
+[rdd_19_42, rdd_40_42, rdd_65_42, rdd_53_42]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 644:
+[rdd_19_44, rdd_40_44, rdd_53_44, rdd_65_44]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 646:
+[rdd_19_46, rdd_40_46, rdd_65_46, rdd_53_46]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 645:
+[rdd_19_45, rdd_53_45, rdd_65_45, rdd_40_45]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 647:
+[rdd_19_47, rdd_40_47, rdd_53_47, rdd_65_47]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 648:
+[rdd_40_48, rdd_53_48, rdd_19_48, rdd_65_48]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 649:
+[rdd_53_49, rdd_65_49, rdd_40_49, rdd_19_49]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 651:
+[rdd_65_51, rdd_40_51, rdd_53_51, rdd_19_51]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 650:
+[rdd_53_50, rdd_65_50, rdd_19_50, rdd_40_50]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 652:
+[rdd_53_52, rdd_65_52, rdd_40_52, rdd_19_52]
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 653:
+[rdd_19_53, rdd_40_53, rdd_65_53, rdd_53_53]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 654:
+[rdd_19_54, rdd_40_54, rdd_53_54, rdd_65_54]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 656:
+[rdd_19_56, rdd_53_56, rdd_65_56, rdd_40_56]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 655:
+[rdd_19_55, rdd_40_55, rdd_53_55, rdd_65_55]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 657:
+[rdd_19_57, rdd_40_57, rdd_65_57, rdd_53_57]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 658:
+[rdd_19_58, rdd_40_58, rdd_53_58, rdd_65_58]
+17/09/22 13:13:52 WARN ShippableVertexPartitionOps: Joining two VertexPartitions with different indexes is slow.
+17/09/22 13:13:52 WARN Executor: 4 block locks were not released by TID = 659:
+[rdd_40_59, rdd_53_59, rdd_19_59, rdd_65_59]
+                                                                                num triangles are 10000

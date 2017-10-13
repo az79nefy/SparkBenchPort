@@ -1,0 +1,151 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/09/22 13:15:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/09/22 13:15:57 WARN Utils: Your hostname, glados-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+17/09/22 13:15:57 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+17/09/22 13:15:58 INFO FileInputFormat: Total input paths to process : 10
+17/09/22 13:15:59 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+17/09/22 13:15:59 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+17/09/22 13:15:59 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/09/22 13:15:59 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+17/09/22 13:15:59 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+17/09/22 13:15:59 WARN Executor: 1 block locks were not released by TID = 10:
+[rdd_3_0]
+17/09/22 13:15:59 WARN Executor: 1 block locks were not released by TID = 11:
+[rdd_3_1]
+17/09/22 13:15:59 WARN Executor: 1 block locks were not released by TID = 12:
+[rdd_3_2]
+17/09/22 13:15:59 WARN Executor: 1 block locks were not released by TID = 13:
+[rdd_3_3]
+17/09/22 13:15:59 WARN Executor: 1 block locks were not released by TID = 14:
+[rdd_3_4]
+17/09/22 13:15:59 WARN Executor: 1 block locks were not released by TID = 15:
+[rdd_3_5]
+17/09/22 13:15:59 WARN Executor: 1 block locks were not released by TID = 16:
+[rdd_3_6]
+17/09/22 13:15:59 WARN Executor: 1 block locks were not released by TID = 17:
+[rdd_3_7]
+17/09/22 13:15:59 WARN Executor: 1 block locks were not released by TID = 18:
+[rdd_3_8]
+17/09/22 13:15:59 WARN Executor: 1 block locks were not released by TID = 19:
+[rdd_3_9]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 40:
+[rdd_23_0, rdd_27_0]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 41:
+[rdd_27_1, rdd_23_1]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 52:
+[rdd_27_2, rdd_23_2]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 53:
+[rdd_23_3, rdd_27_3]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 54:
+[rdd_23_4, rdd_27_4]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 56:
+[rdd_27_6, rdd_23_6]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 55:
+[rdd_27_5, rdd_23_5]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 57:
+[rdd_27_7, rdd_23_7]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 58:
+[rdd_27_8, rdd_23_8]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 59:
+[rdd_27_9, rdd_23_9]
+17/09/22 13:16:00 WARN Executor: 1 block locks were not released by TID = 60:
+[rdd_14_0]
+17/09/22 13:16:00 WARN Executor: 1 block locks were not released by TID = 61:
+[rdd_14_1]
+17/09/22 13:16:00 WARN Executor: 1 block locks were not released by TID = 63:
+[rdd_14_3]
+17/09/22 13:16:00 WARN Executor: 1 block locks were not released by TID = 62:
+[rdd_14_2]
+17/09/22 13:16:00 WARN Executor: 1 block locks were not released by TID = 64:
+[rdd_14_4]
+17/09/22 13:16:00 WARN Executor: 1 block locks were not released by TID = 65:
+[rdd_14_5]
+17/09/22 13:16:00 WARN Executor: 1 block locks were not released by TID = 66:
+[rdd_14_6]
+17/09/22 13:16:00 WARN Executor: 1 block locks were not released by TID = 67:
+[rdd_14_7]
+17/09/22 13:16:00 WARN Executor: 1 block locks were not released by TID = 68:
+[rdd_14_8]
+17/09/22 13:16:00 WARN Executor: 1 block locks were not released by TID = 69:
+[rdd_14_9]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 90:
+[rdd_44_0, rdd_27_0]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 91:
+[rdd_44_1, rdd_27_1]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 92:
+[rdd_27_2, rdd_44_2]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 93:
+[rdd_27_3, rdd_44_3]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 94:
+[rdd_27_4, rdd_44_4]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 96:
+[rdd_27_6, rdd_44_6]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 95:
+[rdd_27_5, rdd_44_5]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 97:
+[rdd_27_7, rdd_44_7]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 98:
+[rdd_27_8, rdd_44_8]
+17/09/22 13:16:00 WARN Executor: 2 block locks were not released by TID = 99:
+[rdd_27_9, rdd_44_9]
+17/09/22 13:16:00 WARN Executor: 3 block locks were not released by TID = 130:
+[rdd_44_0, rdd_61_0, rdd_58_0]
+17/09/22 13:16:00 WARN Executor: 3 block locks were not released by TID = 131:
+[rdd_44_1, rdd_61_1, rdd_58_1]
+17/09/22 13:16:00 WARN Executor: 3 block locks were not released by TID = 132:
+[rdd_61_2, rdd_44_2, rdd_58_2]
+17/09/22 13:16:00 WARN Executor: 3 block locks were not released by TID = 134:
+[rdd_61_4, rdd_58_4, rdd_44_4]
+17/09/22 13:16:00 WARN Executor: 3 block locks were not released by TID = 133:
+[rdd_61_3, rdd_58_3, rdd_44_3]
+17/09/22 13:16:00 WARN Executor: 3 block locks were not released by TID = 135:
+[rdd_61_5, rdd_58_5, rdd_44_5]
+17/09/22 13:16:00 WARN Executor: 3 block locks were not released by TID = 136:
+[rdd_61_6, rdd_44_6, rdd_58_6]
+17/09/22 13:16:00 WARN Executor: 3 block locks were not released by TID = 137:
+[rdd_58_7, rdd_44_7, rdd_61_7]
+17/09/22 13:16:00 WARN Executor: 3 block locks were not released by TID = 139:
+[rdd_58_9, rdd_44_9, rdd_61_9]
+17/09/22 13:16:00 WARN Executor: 3 block locks were not released by TID = 138:
+[rdd_58_8, rdd_44_8, rdd_61_8]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 170:
+[rdd_78_0, rdd_75_0, rdd_61_0]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 171:
+[rdd_75_1, rdd_61_1, rdd_78_1]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 172:
+[rdd_75_2, rdd_61_2, rdd_78_2]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 173:
+[rdd_61_3, rdd_75_3, rdd_78_3]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 174:
+[rdd_61_4, rdd_78_4, rdd_75_4]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 175:
+[rdd_61_5, rdd_78_5, rdd_75_5]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 177:
+[rdd_78_7, rdd_61_7, rdd_75_7]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 176:
+[rdd_61_6, rdd_78_6, rdd_75_6]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 178:
+[rdd_78_8, rdd_75_8, rdd_61_8]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 179:
+[rdd_78_9, rdd_75_9, rdd_61_9]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 200:
+[rdd_78_0, rdd_95_0, rdd_92_0]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 201:
+[rdd_95_1, rdd_92_1, rdd_78_1]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 203:
+[rdd_95_3, rdd_92_3, rdd_78_3]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 202:
+[rdd_95_2, rdd_92_2, rdd_78_2]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 204:
+[rdd_95_4, rdd_92_4, rdd_78_4]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 206:
+[rdd_92_6, rdd_78_6, rdd_95_6]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 205:
+[rdd_95_5, rdd_92_5, rdd_78_5]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 207:
+[rdd_92_7, rdd_78_7, rdd_95_7]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 208:
+[rdd_92_8, rdd_78_8, rdd_95_8]
+17/09/22 13:16:01 WARN Executor: 3 block locks were not released by TID = 209:
+[rdd_78_9, rdd_95_9, rdd_92_9]
+vertices count: 500

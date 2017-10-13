@@ -1,0 +1,16 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/09/23 12:58:43 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/09/23 12:58:44 WARN Utils: Your hostname, glados-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+17/09/23 12:58:44 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+17/09/23 12:58:47 INFO FileInputFormat: Total input paths to process : 1
+17/09/23 12:58:47 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+17/09/23 12:58:47 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/09/23 12:58:47 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+17/09/23 12:58:47 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+17/09/23 12:58:47 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+agg COUNT(*): 1
+agg COUNT(*) bid>5000: 1
+17/09/23 12:58:48 INFO FileInputFormat: Total input paths to process : 1
+select COUNT(*): 767
+select COUNT(*): 510
+[Stage 10:====================================>                 (135 + 2) / 200]                                                                                join COUNT(*): 0

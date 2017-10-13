@@ -1,0 +1,17 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/09/22 13:15:15 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/09/22 13:15:15 WARN Utils: Your hostname, glados-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+17/09/22 13:15:15 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+17/09/22 13:15:17 INFO FileInputFormat: Total input paths to process : 10
+17/09/22 13:15:17 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+17/09/22 13:15:17 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+17/09/22 13:15:17 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/09/22 13:15:17 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+17/09/22 13:15:17 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+17/09/22 13:15:17 WARN Executor: 1 block locks were not released by TID = 0:
+[rdd_2_0]
+17/09/22 13:15:18 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+17/09/22 13:15:18 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+{"loadTime":0.465,"trainingTime":1.970,"testTime":0.121}
+training Mean Squared Error = 0.27226089623770966
+training Weight = [0.13746285303514294, 0.1095275439565127, -0.10918169744588903, -0.12614248746588305]

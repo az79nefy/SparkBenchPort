@@ -1,0 +1,16 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/07/21 16:51:02 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/07/21 16:51:02 WARN Utils: Your hostname, glados-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+17/07/21 16:51:02 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+===========================================================================
+===========================================================================
+Input size: 100KB
+Total number of records: 1000
+Number of output partitions: 2
+Number of records/ partition:   500
+===========================================================================
+===========================================================================
+17/07/21 16:51:03 INFO deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+[Stage 0:>                                                          (0 + 0) / 2][Stage 0:>                                                          (0 + 2) / 2]17/07/21 16:51:05 INFO FileOutputCommitter: Saved output of task 'attempt_20170721165103_0001_r_000001_0' to file:/home/whoami/SparkBench/Terasort/Input/_temporary/0/task_20170721165103_0001_r_000001
+17/07/21 16:51:05 INFO FileOutputCommitter: Saved output of task 'attempt_20170721165103_0001_r_000000_0' to file:/home/whoami/SparkBench/Terasort/Input/_temporary/0/task_20170721165103_0001_r_000000
+[Stage 0:=============================>                             (1 + 1) / 2]                                                                                Number of records written: 1000
