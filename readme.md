@@ -1,3 +1,51 @@
+# Port of spark-bench to ESpark
+
+**How to port a benchmark:**
+1. You need to have opal installed to your local repo (you should already have done that during [ESpark installation](https://github.com/allprojects/big-data-analysis)).
+2. Copy ESpark to the respective benchmark directory ([Example](https://github.com/az79nefy/SparkBenchPort/tree/master/ConnectedComponent/src/main/scala)).
+3. Add dependecies for opal to benchmark POM ([Example](https://github.com/az79nefy/SparkBenchPort/blob/master/ConnectedComponent/pom.xml)).
+```
+<dependency>
+	<groupId>de.opal-project</groupId>
+	<artifactId>opal-developer-tools_2.11</artifactId>
+	<version>0.9.0-SNAPSHOT</version>
+</dependency>
+```
+4. Add Espark imports to benchmark application
+```
+import org.apache.spark.rdd.ProvRDD
+import org.apache.spark.rdd.RDD.rddToPairRDDFunctions
+```
+5. Replace RDDs with ProvRDDs (find all RDDs and wrap them with a new ProvRDD(...)).
+<br> Notice that you also can wrap VertexRDDs in a ProvRDD. Make also sure that all transformations return a ProvRDD (many IDEs support [type showing](https://www.jetbrains.com/help/idea/working-with-scala-show-type-info-action.html)). 
+<br> If this is not the case you have performed a transformation which is not supported by ESpark. In this case you need to re-wrap into a ProvRDD. 
+<br> Always try to perform the transformation as soon as possible (```new ProvRDD(rdd).map``` better than ```new ProvRDD(rdd.map))```). Additionally when dealing with RDD operation chains you should check where a ProvRDD becomes RDD through unsupported operations and only wrap that part in new ProvRDD(...)
+
+6. Re-compile the benchmarks by executing 'mvn compile' in the SparkBenchPort directory.
+
+
+**Ported spark-benchmarks:**
+- Connected Component
+- KMeans
+- LabelPropagation
+- MatrixFactorization [MovieLens]
+- PageRank
+- PCA
+- PregelOperation
+- ShortestPaths
+- SQL
+- StronglyConnectedComponent
+- SVDPlusPlus
+- SVM [DocToIdf]
+- TeraSort
+- TriangleCount
+    
+The data generators have not been ported.    
+    
+**Please do not commit changes to your ESpark config files.**
+
+# Original README #
+
 # Benchmark Suite for Apache Spark #
 
 - Current version: 2.0
